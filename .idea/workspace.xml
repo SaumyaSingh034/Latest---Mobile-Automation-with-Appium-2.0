@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fa3f678-00a5-4258-aee3-fe96fb4d09e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/Day4_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/Day5_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/UseAbleMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Day5_Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Day5_Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/UseAbleMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/UseAbleMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +43,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day5_Assignment.Scenario1_ScrollAndSwipe">
+  <component name="RunManager" selected="TestNG.Day5_Assignment.Scenario3_ZoomAndPinch">
     <configuration name="Day4_Assignment.Scenario1_LockedOutUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium2.0_MobileAutomation" />
       <extension name="coverage">
@@ -148,9 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day5_Assignment.Scenario1_ScrollAndSwipe" />
         <item itemvalue="TestNG.Day5_Assignment.Scenario3_ZoomAndPinch" />
         <item itemvalue="TestNG.Day5_Assignment.Scenario2_DragAndDrop" />
+        <item itemvalue="TestNG.Day5_Assignment.Scenario1_ScrollAndSwipe" />
         <item itemvalue="TestNG.Day4_Assignment.Scenario1_test" />
         <item itemvalue="TestNG.Day4_Assignment.Scenario1_LockedOutUser" />
       </list>
@@ -201,9 +189,9 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utilities/UseAbleMethods.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/test/Day5_Assignment.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
