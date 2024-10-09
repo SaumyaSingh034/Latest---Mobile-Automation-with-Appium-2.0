@@ -10,11 +10,6 @@ public class Day4_Assignment extends BaseTest{
 
     public LoginPage lp = new LoginPage(driver, wait);
 
-  /*  @Test
-    public void Scenario1_test(){
-        String expectedErrorMessage = lp.locked_out_user();
-        Assert.assertEquals(expectedErrorMessage,"Sorry, this user has been locked out.");
-    }*/
     @Test
     public void Scenario1_LockedOutUser(){
 

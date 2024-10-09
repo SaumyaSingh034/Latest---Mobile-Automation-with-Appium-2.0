@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fa3f678-00a5-4258-aee3-fe96fb4d09e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/Day3_Assignment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Day5_Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Day5_Assignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/UseAbleMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/UseAbleMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Day4_Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Day4_Assignment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,19 +179,9 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/test/Day4_Assignment.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java</url>
           <line>39</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/test/Day5_Assignment.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
