@@ -20,6 +20,8 @@ public class BaseTest {
     public static AndroidDriver driver;
     public static AppiumDriverLocalService service;
     public static WebDriverWait wait;
+    public static String standardUser = "//android.widget.TextView[@text='standard_user']";
+    public static String loginBtn = "test-LOGIN";
 
     @BeforeClass
     public void initWait() {
@@ -55,7 +57,9 @@ public class BaseTest {
 
     @AfterTest
     public void tearDown(){
+        driver.quit();
         service.stop();  // Stops the Appium server
         System.out.println("Appium service stopped.");
+
     }
 }

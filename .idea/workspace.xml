@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fa3f678-00a5-4258-aee3-fe96fb4d09e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/Day3_Assignment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Day4_Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Day4_Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Day3_Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Day3_Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/UseAbleMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/UseAbleMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +44,8 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day5_Assignment.Scenario3_ZoomAndPinch">
-    <configuration name="Day4_Assignment.Scenario1_LockedOutUser" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Day3_Assignment.checkoutAnItem">
+    <configuration name="Day3_Assignment.checkoutAnItem" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium2.0_MobileAutomation" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +54,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.Day4_Assignment" />
-      <option name="METHOD_NAME" value="Scenario1_LockedOutUser" />
+      <option name="MAIN_CLASS_NAME" value="com.test.Day3_Assignment" />
+      <option name="METHOD_NAME" value="checkoutAnItem" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -62,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day4_Assignment.Scenario1_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day4_Assignment.Scenario4_RemoveItemFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appium2.0_MobileAutomation" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +73,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.Day4_Assignment" />
-      <option name="METHOD_NAME" value="Scenario1_test" />
+      <option name="METHOD_NAME" value="Scenario4_RemoveItemFromCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day3_Assignment.checkoutAnItem" />
         <item itemvalue="TestNG.Day5_Assignment.Scenario3_ZoomAndPinch" />
         <item itemvalue="TestNG.Day5_Assignment.Scenario2_DragAndDrop" />
         <item itemvalue="TestNG.Day5_Assignment.Scenario1_ScrollAndSwipe" />
-        <item itemvalue="TestNG.Day4_Assignment.Scenario1_test" />
-        <item itemvalue="TestNG.Day4_Assignment.Scenario1_LockedOutUser" />
+        <item itemvalue="TestNG.Day4_Assignment.Scenario4_RemoveItemFromCart" />
       </list>
     </recent_temporary>
   </component>

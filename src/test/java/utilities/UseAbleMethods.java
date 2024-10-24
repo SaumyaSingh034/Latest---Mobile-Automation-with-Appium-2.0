@@ -8,7 +8,9 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,6 +19,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class UseAbleMethods extends BaseTest {
+    By ProductTitle = By.xpath("//android.widget.TextView[@text='PRODUCTS']");
+
 
     public static void waitForElementToBeVisible(WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // 10 seconds wait
@@ -43,6 +47,19 @@ public class UseAbleMethods extends BaseTest {
     }
 
     public static void zoomOnImage(String imageElement) {
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                AppiumBy.xpath(imageElement)));
+        ((JavascriptExecutor) driver).executeScript("mobile: pinchOpenGesture", ImmutableMap.of(
+                "elementId", ((RemoteWebElement) element).getId(),
+                "left", 200,  // Zoom in by 2x
+                "top", 800,
+                "width", 2000,
+                "height", 500,
+                "percent", 1.0// Speed of the gesture
+        ));
+    }
+
+    public static void zoomOnImage1(String imageElement) {
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(
                 AppiumBy.xpath(imageElement)));
         ((JavascriptExecutor) driver).executeScript("mobile: pinchOpen", ImmutableMap.of(
@@ -102,6 +119,17 @@ public class UseAbleMethods extends BaseTest {
                 .add(finger1)
                 .add(finger2)
                 .perform();
+    }
+
+    public boolean isOnProductPage(){
+        try{
+            wait.until(ExpectedConditions.visibilityOfElementLocated(ProductTitle));
+        }catch( TimeoutException e){
+            System.out.println(" ***** Timed out waiting for product page to load. *******");
+            return false;
+        }
+        return true;
+
     }
 
 }
