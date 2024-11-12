@@ -57,6 +57,8 @@ public class BaseTest {
 
     @AfterTest
     public void tearDown(){
+
+
         driver.quit();
         service.stop();  // Stops the Appium server
         System.out.println("Appium service stopped.");

@@ -7,6 +7,7 @@ import io.appium.java_client.MultiTouchAction;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.ElementOption;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -99,6 +100,8 @@ public class UseAbleMethods extends BaseTest {
         int centerX = imageElement.getLocation().getX() + (imageElement.getSize().getWidth() / 2);
         int centerY = imageElement.getLocation().getY() + (imageElement.getSize().getHeight() / 2);
         int startOffset = 200;  // Adjust this to control pinch distance
+        TouchAction action = new TouchAction(driver);
+        action.tap(ElementOption.element(imageElement)).perform();
 
         // First finger gesture: start far from the center and move towards the center (pinch in)
         TouchAction finger1 = new TouchAction(driver)
